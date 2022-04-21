@@ -6,12 +6,8 @@ const sportTypes = ['Basketball', 'Tennis', 'Baseball', 'Soccer', 'Football']
 let liList;
 
 for( let index = 0; index < sportTypes.length; index++){
-    let li = document.createElement("li")
-        li.append(sportTypes[index])
-        sportsList.append(li)
+    sportsList.innerHTML += '<li>' +  sportTypes[index] +'</li>'
 }
-
-
 
 
 
